@@ -1,5 +1,6 @@
 ﻿{
-  "meta": {
+  "swagger" : "2.0"
+   "meta": {
     "view": {
       "id": "xt4f-xvjw",
       "name": "P-Card Purchase",
