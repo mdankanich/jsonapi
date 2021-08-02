@@ -1,0 +1,15 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Gregs Auto Store",
+    "description": "Gregsa aout store and supplies",
+    "version": "2-oas3"
+  },
+  "servers": [
+    {
+      "url": "https://virtserver.swaggerhub.com/mikedank/car_store/2"
+    }
+  ],
+  "paths": {},
+  "components": {}
+}
