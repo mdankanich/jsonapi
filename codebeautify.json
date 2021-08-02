@@ -1,0 +1,869 @@
+﻿{
+  "meta": {
+    "view": {
+      "id": "xt4f-xvjw",
+      "name": "P-Card Purchase",
+      "assetType": "dataset",
+      "attribution": "Mayor's Office of Contract Services (MOCS)",
+      "averageRating": 0,
+      "category": "Business",
+      "createdAt": 1623099191,
+      "description": "The Purchasing Card (P-Card) program is designed to assist agencies in streamlining the process for certain micropurchases. P-Cards are used by agencies to purchase goods and standard services quickly and efficiently, without the intermediate steps required by the City's financial management system.  This report contains an annual list of the greatest volume of P-Card Purchases by City Agency.",
+      "displayType": "table",
+      "downloadCount": 8,
+      "hideFromCatalog": false,
+      "hideFromDataJson": false,
+      "newBackend": true,
+      "numberOfComments": 0,
+      "oid": 37283595,
+      "provenance": "official",
+      "publicationAppendEnabled": false,
+      "publicationDate": 1623099325,
+      "publicationGroup": 18340979,
+      "publicationStage": "published",
+      "rowsUpdatedAt": 1623099325,
+      "rowsUpdatedBy": "d5dp-fses",
+      "tableId": 18340979,
+      "totalTimesRated": 0,
+      "viewCount": 27,
+      "viewLastModified": 1625078482,
+      "viewType": "tabular",
+      "approvals": [
+        {
+          "reviewedAt": 1625078488,
+          "reviewedAutomatically": true,
+          "state": "approved",
+          "submissionId": 3774769,
+          "submissionObject": "public_audience_request",
+          "submissionOutcome": "change_audience",
+          "submittedAt": 1625078488,
+          "workflowId": 2285,
+          "submissionDetails": {
+            "permissionType": "READ"
+          },
+          "submissionOutcomeApplication": {
+            "endedAt": 1625078488,
+            "failureCount": 0,
+            "startedAt": 1625078488,
+            "status": "success"
+          },
+          "submitter": {
+            "id": "d5dp-fses",
+            "displayName": "afinkel"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "id": -1,
+          "name": "sid",
+          "dataTypeName": "meta_data",
+          "fieldName": ":sid",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "id",
+          "dataTypeName": "meta_data",
+          "fieldName": ":id",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "position",
+          "dataTypeName": "meta_data",
+          "fieldName": ":position",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "created_at",
+          "dataTypeName": "meta_data",
+          "fieldName": ":created_at",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "created_meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":created_meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "updated_at",
+          "dataTypeName": "meta_data",
+          "fieldName": ":updated_at",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "updated_meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":updated_meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": 542003248,
+          "name": "Fiscal Year",
+          "dataTypeName": "number",
+          "description": "Reporting fiscal year",
+          "fieldName": "fiscal_year",
+          "position": 1,
+          "renderTypeName": "number",
+          "tableColumnId": 138233659,
+          "cachedContents": {
+            "non_null": "33",
+            "largest": "2020",
+            "null": "0",
+            "top": [
+              {
+                "item": "2019",
+                "count": "11"
+              },
+              {
+                "item": "2018",
+                "count": "11"
+              },
+              {
+                "item": "2020",
+                "count": "11"
+              }
+            ],
+            "smallest": "2018",
+            "cardinality": "3"
+          },
+          "format": {
+            "noCommas": "true"
+          }
+        },
+        {
+          "id": 542003250,
+          "name": "Agency",
+          "dataTypeName": "text",
+          "description": "Name of the agency",
+          "fieldName": "agency",
+          "position": 2,
+          "renderTypeName": "text",
+          "tableColumnId": 138233661,
+          "cachedContents": {
+            "non_null": "33",
+            "largest": "OTHER",
+            "null": "0",
+            "top": [
+              {
+                "item": "NYPD",
+                "count": "3"
+              },
+              {
+                "item": "DOC",
+                "count": "3"
+              },
+              {
+                "item": "DOHMH",
+                "count": "3"
+              },
+              {
+                "item": "DOT",
+                "count": "3"
+              },
+              {
+                "item": "DEP",
+                "count": "3"
+              },
+              {
+                "item": "DPR",
+                "count": "3"
+              },
+              {
+                "item": "DCAS",
+                "count": "3"
+              },
+              {
+                "item": "OTHER",
+                "count": "3"
+              },
+              {
+                "item": "FDNY",
+                "count": "3"
+              },
+              {
+                "item": "DSNY",
+                "count": "2"
+              },
+              {
+                "item": "ACS",
+                "count": "2"
+              },
+              {
+                "item": "DHS",
+                "count": "1"
+              },
+              {
+                "item": "NYCEM",
+                "count": "1"
+              }
+            ],
+            "smallest": "ACS",
+            "cardinality": "13"
+          },
+          "format": {}
+        },
+        {
+          "id": 542003249,
+          "name": "Total Value Purchased",
+          "dataTypeName": "number",
+          "description": "Dollar value purchased by agency",
+          "fieldName": "total_value_purchased",
+          "position": 3,
+          "renderTypeName": "number",
+          "tableColumnId": 138233660,
+          "cachedContents": {
+            "non_null": "33",
+            "largest": "7877900.00",
+            "null": "0",
+            "top": [
+              {
+                "item": "2556100.00",
+                "count": "1"
+              },
+              {
+                "item": "6795400.00",
+                "count": "1"
+              },
+              {
+                "item": "7877900.00",
+                "count": "1"
+              },
+              {
+                "item": "2829100.00",
+                "count": "1"
+              },
+              {
+                "item": "1314000.00",
+                "count": "1"
+              },
+              {
+                "item": "810600.00",
+                "count": "1"
+              },
+              {
+                "item": "1689200.00",
+                "count": "1"
+              },
+              {
+                "item": "2876800.00",
+                "count": "1"
+              },
+              {
+                "item": "1611700.00",
+                "count": "1"
+              },
+              {
+                "item": "3343600.00",
+                "count": "1"
+              },
+              {
+                "item": "2045000.00",
+                "count": "1"
+              },
+              {
+                "item": "446400.00",
+                "count": "1"
+              },
+              {
+                "item": "670800.00",
+                "count": "1"
+              },
+              {
+                "item": "3111300.00",
+                "count": "1"
+              },
+              {
+                "item": "1449700.00",
+                "count": "1"
+              },
+              {
+                "item": "2608600.00",
+                "count": "1"
+              },
+              {
+                "item": "3342100.00",
+                "count": "1"
+              },
+              {
+                "item": "824700.00",
+                "count": "1"
+              },
+              {
+                "item": "1797800.00",
+                "count": "1"
+              },
+              {
+                "item": "2202100.00",
+                "count": "1"
+              }
+            ],
+            "smallest": "350500.00",
+            "cardinality": "33"
+          },
+          "format": {
+            "precisionStyle": "currency",
+            "currencyStyle": "USD"
+          }
+        }
+      ],
+      "grants": [
+        {
+          "inherited": false,
+          "type": "viewer",
+          "flags": [
+            "public"
+          ]
+        }
+      ],
+      "metadata": {
+        "attachments": [
+          {
+            "filename": "DICTIONARY P-Card.xlsx",
+            "assetId": "309e1072-ef73-48a5-8d71-ded797f8c34f",
+            "name": "DICTIONARY P-Card.xlsx"
+          }
+        ],
+        "custom_fields": {
+          "Update": {
+            "Automation": "No",
+            "Date Made Public": "6/30/2021",
+            "Update Frequency": "Annually"
+          },
+          "Dataset Information": {
+            "Agency": "Mayor's Office of Contract Services (MOCS)"
+          }
+        },
+        "availableDisplayTypes": [
+          "table",
+          "fatrow",
+          "page"
+        ]
+      },
+      "owner": {
+        "id": "5fuc-pqz2",
+        "displayName": "NYC OpenData",
+        "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName": "NYC OpenData",
+        "type": "interactive",
+        "flags": [
+          "acceptedEula",
+          "mayBeStoriesCoOwner"
+        ]
+      },
+      "query": {},
+      "rights": [
+        "read"
+      ],
+      "tableAuthor": {
+        "id": "5fuc-pqz2",
+        "displayName": "NYC OpenData",
+        "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName": "NYC OpenData",
+        "type": "interactive",
+        "flags": [
+          "acceptedEula",
+          "mayBeStoriesCoOwner"
+        ]
+      },
+      "tags": [
+        "mocs",
+        "p-card"
+      ],
+      "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+      ]
+    }
+  },
+  "data": [
+    [
+      "row-mcjg-vzd5-g2w9",
+      "00000000-0000-0000-0A23-4A10A2EB816B",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "FDNY",
+      "7877900.00"
+    ],
+    [
+      "row-jxds_5zna~wtrn",
+      "00000000-0000-0000-EF3F-146B9FF73A52",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "DOT",
+      "3342100.00"
+    ],
+    [
+      "row-bgzh_d22t~xfwv",
+      "00000000-0000-0000-5383-00DC8D589A2F",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "NYPD",
+      "2835500.00"
+    ],
+    [
+      "row-9eri.qsw6.eheu",
+      "00000000-0000-0000-8DEF-DDC6D0916F02",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "NYCEM",
+      "2045000.00"
+    ],
+    [
+      "row-kinu-ww22-pnar",
+      "00000000-0000-0000-42AE-A54246FB09CF",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "DEP",
+      "1797800.00"
+    ],
+    [
+      "row-pyyg_p4hq.dgg7",
+      "00000000-0000-0000-95B4-90389392934F",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "DOHMH",
+      "1609500.00"
+    ],
+    [
+      "row-9udg.9jku-qiq6",
+      "00000000-0000-0000-2009-6AF64AE47FBE",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "DOC",
+      "1449700.00"
+    ],
+    [
+      "row-b4qc.mqhj.uixe",
+      "00000000-0000-0000-318F-EEB202E0C4DF",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "DPR",
+      "1314000.00"
+    ],
+    [
+      "row-juj5.grvd_pmzt",
+      "00000000-0000-0000-5C94-1791123327FE",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "DCAS",
+      "824700.00"
+    ],
+    [
+      "row-y7q9.away-fdr8",
+      "00000000-0000-0000-9F91-9BC4A8C3FA01",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "DSNY",
+      "446400.00"
+    ],
+    [
+      "row-ms3h.yfxa.eh25",
+      "00000000-0000-0000-48A7-569B143991BB",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2020",
+      "OTHER",
+      "3062000.00"
+    ],
+    [
+      "row-6rsc_bjn3_6823",
+      "00000000-0000-0000-33E2-9B7ACF661948",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "FDNY",
+      "6795400.00"
+    ],
+    [
+      "row-9bd7~ku52_gwbw",
+      "00000000-0000-0000-1CB8-94C823DBC35F",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "DOT",
+      "3111300.00"
+    ],
+    [
+      "row-97dp.giug.wv4f",
+      "00000000-0000-0000-97C4-FDD25CCA54AD",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "NYPD",
+      "2829100.00"
+    ],
+    [
+      "row-tprt~p9tn_bd35",
+      "00000000-0000-0000-EE7F-7F647455390E",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "DEP",
+      "2202100.00"
+    ],
+    [
+      "row-u8mk_7p2e-anqr",
+      "00000000-0000-0000-A374-CB6DA318419A",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "DPR",
+      "1391600.00"
+    ],
+    [
+      "row-5j5m_e9gq~2nrw",
+      "00000000-0000-0000-50DD-30FEF0DBFF9B",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "DOHMH",
+      "1119600.00"
+    ],
+    [
+      "row-2cyt-z7eg-ud6f",
+      "00000000-0000-0000-9F18-9BE26D6AEE5F",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "DCAS",
+      "894800.00"
+    ],
+    [
+      "row-y8gh_6a5i.ptej",
+      "00000000-0000-0000-6F92-A41F0B955E1A",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "DOC",
+      "862500.00"
+    ],
+    [
+      "row-gvtg.vhc3-beq8",
+      "00000000-0000-0000-2516-4606F48AF3DA",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "ACS",
+      "411700.00"
+    ],
+    [
+      "row-qztk~fzmt_dnwc",
+      "00000000-0000-0000-E826-9B86BFD59453",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "DSNY",
+      "350500.00"
+    ],
+    [
+      "row-igh8-56kw_p7bt",
+      "00000000-0000-0000-FDA8-F353513923F3",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2019",
+      "OTHER",
+      "2556100.00"
+    ],
+    [
+      "row-9upu_u2n8~s4yn",
+      "00000000-0000-0000-4B90-D107DA9BB418",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "FDNY",
+      "5925000.00"
+    ],
+    [
+      "row-9jxh.cu5r.kuzw",
+      "00000000-0000-0000-001E-B73E140F7640",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "NYPD",
+      "3343600.00"
+    ],
+    [
+      "row-4s9e-ww47-v9v5",
+      "00000000-0000-0000-8B5F-EFE84FF4F382",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "DOT",
+      "2876800.00"
+    ],
+    [
+      "row-68r8~y992.vk36",
+      "00000000-0000-0000-6FFD-F0956C8471F8",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "DEP",
+      "2619100.00"
+    ],
+    [
+      "row-jh5r~vhd6.mj7p",
+      "00000000-0000-0000-480D-41F73E831661",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "DPR",
+      "1689200.00"
+    ],
+    [
+      "row-nmwr~zppd.3cf3",
+      "00000000-0000-0000-2A4A-09415B8BF3D1",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "DOHMH",
+      "1676200.00"
+    ],
+    [
+      "row-ewwg.6dy4~fsk3",
+      "00000000-0000-0000-6845-01660C030E1A",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "DOC",
+      "1611700.00"
+    ],
+    [
+      "row-knrq_6nex-uqfz",
+      "00000000-0000-0000-A4BE-DFD5112630D4",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "DHS",
+      "810600.00"
+    ],
+    [
+      "row-ib2r_her8.bmu9",
+      "00000000-0000-0000-F9F8-49C74ECF70DA",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "DCAS",
+      "670800.00"
+    ],
+    [
+      "row-auxq.7ukz-83yd",
+      "00000000-0000-0000-6DC9-C7FF6B92E822",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "ACS",
+      "564500.00"
+    ],
+    [
+      "row-bq2y.be9q-ntx8",
+      "00000000-0000-0000-41B6-1FAFAA844481",
+      0,
+      1623099325,
+      null,
+      1623099325,
+      null,
+      "{ }",
+      "2018",
+      "OTHER",
+      "2608600.00"
+    ]
+  ]
+}
